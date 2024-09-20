@@ -33,8 +33,8 @@ function App(): React.JSX.Element {
           options={{title: 'Trending Products'}}
         />
         <Stack.Screen
-          name="Home"
-          component={Home}
+          name="Details"
+          component={Details}
           options={{title: 'Products Details '}}
         />
       </Stack.Navigator>
